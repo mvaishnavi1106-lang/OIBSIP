@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>💻💬 LiveTalk: Browser Application</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.js"></script>
+
+</head>
+
+<body>
+
+    <!-- HOME SCREEN -->
+
+    <div id="home-screen">
+
+        <div class="home-card">
+
+            <h1>💬 LiveTalk</h1>
+
+            <p>"Chat today, connect forever."</p>
+
+            <input
+                type="text"
+                id="home-username"
+                placeholder="Enter your name">
+
+            <br><br>
+
+            <button onclick="enterChat()">
+                Enter Chat
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- CHAT SCREEN -->
+
+    <div
+        class="chat-container"
+        id="chat-screen"
+        style="display:none;">
+
+        <!-- HEADER -->
+
+        <div class="chat-header">
+
+            💻💬 LiveTalk: Browser Application
+
+          
+        </div>
+         <div id="counter">
+        Messages: 0
+        </div>
+        <div class="main-area">
+            <!-- ONLINE USERS -->
+
+            <div class="online-users">
+
+                <h3>
+                    🟢 Online Users
+                    <span id="online-count">(0)</span>
+                </h3>
+
+                <ul id="user-list">
+                </ul>
+
+            </div>
+
+            <!-- CHAT AREA -->
+
+            <div class="chat-section">
+
+                <div id="chat-title">
+                    👥 Everyone Chat
+                </div>
+
+                <div id="notification-area"></div>
+                <div id="typing"></div>
+                <div id="chat-box">
+
+                    <div id="typing"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- INPUT AREA -->
+
+        <div class="input-area">
+
+            <input
+                type="text"
+                id="username"
+                placeholder="Your name"
+                readonly>
+
+            <input
+                type="text"
+                id="message-input"
+                placeholder="Type message...">
+
+            <button onclick="addEmoji('😀')">
+                😀
+            </button>
+
+            <button onclick="addEmoji('😂')">
+                😂
+            </button>
+
+            <button onclick="addEmoji('❤️')">
+                ❤️
+            </button>
+
+            <button onclick="downloadChat()">
+                📥
+            </button>
+
+            <button onclick="sendMessage()">
+                Send
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
