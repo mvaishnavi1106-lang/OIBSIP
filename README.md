@@ -72,11 +72,11 @@ Task 1 - LiveTalk Browser Chat Application
 ## Screenshots
 
 ### Home Screen
-![Home Screen](Screenshot 2026-06-09 193816.png )
+![Home Screen](Screenshot 2026-06-09 193816.png)
 
 ### Group Chat
-![Group Chat](Screenshot 2026-06-09 193838.png )
+![Group Chat](Screenshot 2026-06-09 193838.png)
 
 ### Private Chat
-![Private Chat](Screenshot 2026-06-09 193916.png )
+![Private Chat](Screenshot 2026-06-09 193916.png)
 
