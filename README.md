@@ -72,7 +72,7 @@ Task 1 - LiveTalk Browser Chat Application
 ## Screenshots
 
 ### Home Screen
-![Home Screen]( )
+![Home Screen](Screenshot 2026-06-09 193816.png )
 
 ### Group Chat
 ![Group Chat]( )
