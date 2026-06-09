@@ -69,3 +69,13 @@ Oasis Infobyte Internship Program
 
 Task 1 - LiveTalk Browser Chat Application
 
+## Screenshots
+
+### Home Screen
+![Home Screen]( )
+
+### Group Chat
+![Group Chat]( )
+
+### Private Chat
+![Private Chat]( )
