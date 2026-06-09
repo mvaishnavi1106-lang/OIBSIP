@@ -78,4 +78,5 @@ Task 1 - LiveTalk Browser Chat Application
 ![Group Chat]( )
 
 ### Private Chat
-![Private Chat]( )
+![Private Chat](Screenshot 2026-06-09 193916.png )
+
